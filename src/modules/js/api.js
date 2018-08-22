@@ -4,7 +4,7 @@ const url = {
     editRecord: '/api/v1/records/',
     deleteRecord: '/api/v1/records/'
 }
-const host = 'http://5b6d7d1dd8f3430014e796d6.mockapi.io'
+const host = 'https://5b6d7d1dd8f3430014e796d6.mockapi.io'
 for(let key in url){
     if(url.hasOwnProperty(key)){
       url[key] = host + url[key]  
